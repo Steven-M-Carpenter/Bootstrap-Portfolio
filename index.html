@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Bootstrap Portfolio</title>
+    
+    <!-- Bootstrap Javascipt -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Loading Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Build the bootstrap navbar     -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse border-bottom border-secondary" id="navbarSupportedContent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="navbar-brand pl-3 pr-3 pt-2 pb-2 text-white">
+                            <span class="brandNav">Steve Carpenter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <div class="aboutNav">
+                        <a class="nav-link pr-3 border-right border-secondary" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="portfolioNav">
+                        <a class="nav-link pl-3 pr-3 border-right border-secondary" href="portfolio.html">Portfolio</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="contactNav">
+                        <a class="nav-link pl-3" href="contact.html">Contact</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>   
+
+    <!-- Build the section header for About page -->
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <p></p>
+                </div>
+                <div class="col-sm-6 bg-white mt-5 mb-5">
+                    <section class="aboutMe">
+                        <div class="aboutHeader pt-3 pb-1 border-bottom border-secondary">
+                            <h2>About Me</h2>
+                        </div>
+                        <figure class="myPicture">
+                            <img class="float-left mr-3 mt-3" id="bio_image" src="images/Steve_Carpenter.jpg" alt="Picture of myself" height="200" width="150">
+                        </figure>
+                        <main class="contents">
+                            <p>Magna ut magna dolore eos labore lorem lorem, est ut erat sed eos dolores, sed magna dolor ipsum et sadipscing gubergren. Est amet et dolor sed duo voluptua. Sea stet sit aliquyam ipsum. Diam gubergren gubergren elitr et, eirmod eirmod tempor diam clita sit ipsum, sea takimata tempor takimata gubergren consetetur ut eos, voluptua et ipsum eirmod et magna sea,.</p>
+                            <p>Et sadipscing amet stet labore sit dolore. Justo lorem ea et et sed invidunt diam tempor. No sanctus vero aliquyam justo erat. Magna eirmod et ipsum ea dolor et dolore sed takimata. Sanctus tempor dolores clita. Lorem erat sadipscing. Et et sea accusam clita takimata invidunt dolore sit justo elitr, rebum accusam rebum invidunt est tempor at amet amet labore, stet ipsum aliquyam eirmod invidunt dolores eirmod lorem. Diam diam eirmod elitr sed, nonumy dolores takimata dolor accusam sit, rebum lorem duo diam elitr et, kasd at kasd lorem ut consetetur consetetur. Dolores tempor invidunt eirmod clita takimata consetetur.</p>
+                        </main>    
+                    </section>
+                </div>
+                <div class="col-sm-4">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Build the footer for the About page -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 bg-secondary pt-4 pb-4 text-center text-light">
+                    <footer class="footInfo">
+                        <span class="copyright">&copy; Copyright</span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

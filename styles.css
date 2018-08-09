@@ -1,0 +1,100 @@
+/*******************************************************************/
+/*                                                                 */
+/* Boot camp week 2 homework.  CSS for Bootstap portfolio project. */
+/*                                                                 */
+/*******************************************************************/
+
+/* Merriweather font = font-family: 'Merriweather', serif; */
+
+body {
+    background-image: url("./images/concrete-texture.png") !important;
+    background-repeat: repeat !important; 
+    overflow: auto !important;
+}
+
+.navbar-brand {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: #4aaaa5;
+}
+
+.aboutHeader {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #4aaaa5;
+}
+
+.portfolioHead {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #4aaaa5;
+}
+
+.contactHead {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #4aaaa5;
+}
+
+.left-image {
+    padding: 0px;
+    position: relative;
+}
+
+.right-image {
+    padding: 0px;
+    position: relative;
+}
+
+.portLabel-text {
+    background-color: #4aaaa5;
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+    width: 200px;
+}
+
+portLabel-text {
+    position: relative;
+    /* bottom: 75px; */
+    left: 75px;
+}
+
+
+/**************************************************/
+/* Begin styling psuedos for Bootstrap button     */
+/**************************************************/
+#submit-button { 
+    color: #ffffff; 
+    background-color: #4AAAA5; 
+    border-color: #4AAAA5; 
+} 
+
+#submit-button:hover { 
+    color: #ffffff; 
+    background-color: #4aaacf; 
+    border-color: #4AAAA5; 
+} 
+
+#submit-button:focus { 
+    color: #ffffff; 
+    background-color: #4aaacf; 
+    border-color: #4AAAA5; 
+} 
+
+#submit-button:active { 
+    color: #ffffff; 
+    background-color: #4aaacf; 
+    border-color: #4AAAA5; 
+} 
+
+/**************************************************/
+/* End styling psuedos for Bootstrap button     */
+/**************************************************/
+
+
+
